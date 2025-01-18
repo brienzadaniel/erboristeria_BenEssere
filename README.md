@@ -25,7 +25,8 @@ Viene richiesta la creazione di un e-commerce che rispecchi i seguenti concept:
 
 ## Root colori:
 
-- ![image](https://github.com/user-attachments/assets/95ea80ef-d924-441b-980d-aa4b7e25b9b8)
+![logo](https://github.com/user-attachments/assets/0914a7b1-4b3d-4fbd-bfa8-e69712cbc97b)
+
 
 
 ## Root font:
