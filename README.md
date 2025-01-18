@@ -18,7 +18,7 @@ Viene richiesta la creazione di un e-commerce che rispecchi i seguenti concept:
 - NavBar responsive (Desktop & Mobile)
 - Hero Section clean
 - About Section clean
-- Questionario scelta custo prodotti per cliente
+- Questionario scelta giusta prodotti per cliente
 - Questionario gradimento sito web
 - FAQ (Animated collpase)
 - Footer clean
@@ -37,4 +37,4 @@ Viene richiesta la creazione di un e-commerce che rispecchi i seguenti concept:
 
 ## Root font:
 
-- Da definire
+- Montserrat
