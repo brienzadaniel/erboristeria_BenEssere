@@ -18,6 +18,7 @@
             }
             body{
                     overflow-Y: hidden;
+                    background: red;
             }
             .lottie{
                 width: 100vh; 
