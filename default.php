@@ -40,7 +40,7 @@
 <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 <center>
 <dotlottie-player class="lottie" src="https://lottie.host/00dd0ad7-6f02-40b9-84c5-dcff5e88a807/w0xgrszBME.lottie" background="transparent" speed="0.5" loop autoplay></dotlottie-player>
-<h1>Ciao</h1>
+<h1 style="color: red;">Ciao</h1>
 </center>
         </body>
 </html>
