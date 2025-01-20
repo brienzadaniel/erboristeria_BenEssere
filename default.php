@@ -26,7 +26,7 @@
             
            @media only screen and (max-width: 768px){
                 .animation{
-                    
+                    display: flex;
                 }
             }
             </style>
