@@ -31,9 +31,8 @@
                 .animation{
                     width: 400px;
                     height: 100vh;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    position: absolute;
+                    top: 0;
                 }
             }
             </style>
