@@ -31,6 +31,9 @@
                 .lottie{
                     width: 400px;
                     height: 100vh;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }
             }
             </style>
