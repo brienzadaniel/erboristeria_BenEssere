@@ -19,7 +19,7 @@
             body{
                     overflow-Y: hidden;
             }
-            .lottie{
+            .animation{
                 width: 100vh; 
                 height: 100vh;
                 display: flex;
@@ -28,7 +28,7 @@
             }
             
            @media only screen and (max-width: 768px){
-                .lottie{
+                .animation{
                     width: 400px;
                     height: 100vh;
                     display: flex;
@@ -38,7 +38,9 @@
             }
             </style>
 <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<div class="animation">
 <dotlottie-player class="lottie" src="https://lottie.host/00dd0ad7-6f02-40b9-84c5-dcff5e88a807/w0xgrszBME.lottie" background="transparent" speed="0.5" loop autoplay></dotlottie-player>
+</div>
 
         </body>
 </html>
