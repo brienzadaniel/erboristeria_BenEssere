@@ -1,40 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Sito Web in Costruzione</title>
-        <link rel="icon" href="logo.png">
-        <meta charset="utf-8">
-        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-        <meta content="Default page" name="description">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <body>
-            <style>
-            *{
-                    margin: 0;
-                    padding: 0;
-            }
-            body{
-                    overflow-Y: hidden;
-            }
-            .animation{
-                width: 100vh; 
-                height: 100vh;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-           @media only screen and (max-width: 768px){
-                .animation{
-                    display: flex;
-                    justify-content: center;
-                }
-            }
-            </style>
-<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-<div class="animation">
-<dotlottie-player class="lottie" src="https://lottie.host/00dd0ad7-6f02-40b9-84c5-dcff5e88a807/w0xgrszBME.lottie" background="transparent" speed="0.5" loop autoplay></dotlottie-player>
-</div>
-
-        </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito Web in costruzione</title>
+</head>
+<body>
+<div class="wrapper">
+  <h1>coming soon<span class="dot">.</span></h1>
+  <p>Put some text here.</p>
+  <div class="icons">
+    <a href=""><i class="fa fa-twitter"></i></a>
+    <a href=""><i class="fa fa-youtube-play"></i></a>
+    <a href=""><i class="fa fa-paper-plane"></i></a>
+  </div>
+ </div>
+</body>
 </html>
+
+ <style>
+    body {
+  background: #00091B;
+  color: #fff;
+}
+
+
+@keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+  
+}
+
+@-webkit-keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+  
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
+  
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.dot {
+  color: #4FEBFE;
+}
+
+p {
+  text-align: center;
+  margin: 18px;
+  font-family: 'Muli', sans-serif;
+  font-weight: normal;
+  
+}
+
+.icons {
+  text-align: center;
+  
+}
+
+.icons i {
+  color: #00091B;
+  background: #fff;
+  height: 15px;
+  width: 15px;
+  padding: 13px;
+  margin: 0 10px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  transition: all 200ms ease;
+  text-decoration: none;
+  position: relative;
+}
+
+.icons i:hover, .icons i:active {
+  color: #fff;
+  background: none;
+  cursor: pointer !important;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  text-decoration: none;
+  
+}
+ </style>
