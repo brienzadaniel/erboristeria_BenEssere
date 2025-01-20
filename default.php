@@ -48,6 +48,7 @@ h1 {
   margin-bottom: 0;
   line-height: 1;
   font-weight: 700;
+  text-align: center;
 }
 
 .dot {
@@ -88,6 +89,5 @@ p {
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   text-decoration: none;
-  
 }
  </style>
