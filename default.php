@@ -7,9 +7,6 @@
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
         <meta content="Default page" name="description">
         <meta content="width=device-width, initial-scale=1" name="viewport">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
         <body>
             <style>
             *{
@@ -29,10 +26,7 @@
             
            @media only screen and (max-width: 768px){
                 .animation{
-                    width: 400px;
-                    height: 100vh;
-                    position: absolute;
-                    top: 0;
+                    
                 }
             }
             </style>
